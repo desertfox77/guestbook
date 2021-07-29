@@ -40,7 +40,7 @@ class Menu extends CI_Controller
 
         $this->db->insert('addmessage', $data);
         $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">
-        Location has been added!
+        Message has been added!
       </div>');
         redirect('Menu');
    
