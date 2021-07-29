@@ -133,7 +133,7 @@ public function login(){
 //                 'token' => $token,
 //                 'date_created' => time()
 //             ];
-//             $this->db->insert('user', $data);
+            $this->db->insert('user', $data);
 //             $this->db->insert('user_token', $user_token);
 
 //             $this->_sendEmail($token, 'verify');
